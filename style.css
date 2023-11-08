@@ -1,5 +1,10 @@
 .cloud {
-   color: #000000;
+    position: relative;
+    padding:30px;
+    color: #337AB7;
+    font-size:22px;
+    font-weight:bold;
+    z-index:100;
 }
 .cloudcontent {
     position: relative;
@@ -54,7 +59,24 @@
 }
 
 .cloud1 {
+    -webkit-animation: animCloud 20s infinite linear;
+    -moz-animation: animCloud 20s infinite linear;
+    animation: animCloud 20s infinite linear
+}
+.cloud2 {
+    -webkit-animation: animCloud 40s infinite linear;
+    -moz-animation: animCloud 40s infinite linear;
+    animation: animCloud 40s infinite linear
+}
+.cloud3 {
     -webkit-animation: animCloud 60s infinite linear;
     -moz-animation: animCloud 60s infinite linear;
     animation: animCloud 60s infinite linear
 }
+.cloud4 {
+    -webkit-animation: animCloud 80s infinite linear;
+    -moz-animation: animCloud 80s infinite linear;
+    animation: animCloud 80s infinite linear
+}
+
+
